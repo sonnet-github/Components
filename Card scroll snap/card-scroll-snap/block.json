@@ -1,0 +1,24 @@
+{
+    "name": "acf/card-scroll-snap",
+    "title": "Card scroll snap",
+    "description": "Theme styled card scroll snap block.",
+    "category": "custom-layout",
+    "icon": "text",
+    "keywords": ["card", "snap", "block"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "card-scroll-snap.php"
+    },
+    "align": "full",
+    "supports" : {
+        "anchor" : true
+    },
+    "example": {
+        "attributes": {
+            "mode" : "preview",
+            "data" : {
+                "preview_image" : "card-scroll-snap/preview.jpg"
+            }
+        }
+    }
+}
